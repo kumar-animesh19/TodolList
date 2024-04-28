@@ -64,6 +64,6 @@ function ToDoListItems({item,index,todolist,setTodolist}) {
     setSatuts(!status);
   }
   return(
-    <li className={'status' ? 'completeTodo' : ''} onClick={checkStauts}>{index+1}. {item} <span onClick={removeItem}>&times;</span></li>
+    <li className={status ? 'completeTodo' : ''} onClick={checkStauts}>{index+1}. {item} <span onClick={removeItem}>&times;</span></li>
   );
 }

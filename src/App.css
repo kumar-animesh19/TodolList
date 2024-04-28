@@ -45,6 +45,6 @@ form button{
 }
 .completeTodo{
   text-decoration: line-through;
-  color: red;
+  color: red !important;
   background-color: yellow !important;
 }
